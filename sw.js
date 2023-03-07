@@ -1,6 +1,6 @@
 const CACHE_NAME = `AWZOME-CALC`;
 const GHPATH = '/pwa-helloworld';
-const VERSION = 'v01-beta-proto';
+const VERSION = 'v02';
 const APP_PREFIX = 'awz_';
 
 const URLS = [    
