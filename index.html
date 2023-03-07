@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Greeter</title>
-    <link rel="manifest" href="/manifest.json">
+    <title>Awesome Calc</title>
+    <link rel="manifest" href="manifest.json">
 </head>
 <script>
     if('serviceWorker' in navigator) {
@@ -10,14 +10,18 @@
     }
     </script>
 <body>
-    <input id="nameInput" type="text" placeholder="john">
-    <button onclick="greet()">Hello!</button>
+    <h1>Awzome Calclator</h1>
+    <input id="num1" type="text" placeholder="2" oninput="calc()">
+    <input id="num2" type="text" placeholder="2" oninput="calc()">
+    <input id="result" type="text" disabled>
     
 </body>
 <script>
-    function greet(){
-        alert("Hello " + nameInput.value)
+    function calc(){
+        result.value = num1.value + num2.value;
     }
+
+
 </script>
 
 </html>
