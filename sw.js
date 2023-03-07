@@ -1,4 +1,12 @@
-const CACHE_NAME = `temperature-converter-v1`;
+const CACHE_NAME = `AWZOME-CALC`;
+const GHPATH = '/pwa-helloworld';
+const VERSION = 'v01-beta-proto';
+const APP_PREFIX = 'awz_';
+
+const URLS = [    
+  `${GHPATH}/`,
+  `${GHPATH}/index.html`
+]
 
 // Use the install event to pre-cache all initial resources.
 self.addEventListener('install', event => {

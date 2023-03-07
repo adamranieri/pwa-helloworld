@@ -3,14 +3,15 @@
     "name": "Calclator",
     "short_name": "Does calclations",
     "description": "Can do awesome calc stuff",
-    "start_url": "/",
+    "start_url": "/pwa-helloworld/",
+    "scope":"/pwa-helloworld/",
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
     "orientation": "any",
     "display": "standalone",
     "icons": [
         {
-            "src": "/logo.png",
+            "src": "/pwa-helloworld/logo.png",
             "sizes": "512x512"
         }
     ]
